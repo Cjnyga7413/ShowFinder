@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(185, 44, 44);
+}
+
+.sign-in-container {
+    background-color: #fff;
+    background-image:url(componets/mosh-pit-cover.jpg);
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-family: 'CustomFont3', sans-serif;
+    font-size: 30px;
+
+}
+
+label {
+    font-family: 'CustomFont3', sans-serif;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #c5810d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #a46e0a;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+p{
+    font-family: 'CustomFont', sans-serif;
+    font-size: 28px;
+    color: rgb(97, 142, 20);
+}

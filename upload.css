@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(componets/bricks.jpg);
+    background-color: rgb(185, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    background-image:url(componets/paint2.jpg);
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #888;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+}
+h2{
+    font-family: 'CustomFont';
+    color: hsl(0, 0%, 100%);
+    outline-color: black;
+    font-size: 50px;
+    margin-top: 50px;
+}

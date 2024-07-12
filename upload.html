@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="upload.css">
+    <title>Upload Page</title>
+</head>
+<body>
+    <form action="upload.php" method="post">
+        <h2>Upload Your Show</h2>
+        <input type="text" name="Title" placeholder="Title" required>
+        <input type="text" name="Caption" placeholder="Caption" required>
+        <input type="text" name="Genre" placeholder="Genre" required>
+        <input type="date" name="Date" required>
+        <input type="time" name="Time" required>
+        <input type="text" name="City" placeholder="City" required>
+        <input type="text" name="Address" placeholder="Address" required>
+        <input type="text" name="Zipcode" placeholder="Zipcode" required>
+        <button type="submit" class="button">Upload</button>
+        <a href="index.php" class="button">Go Back to Home</a>
+    </form>
+
+
+</body>
+</html>

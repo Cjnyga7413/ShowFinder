@@ -1,0 +1,25 @@
+  
+        .post-details {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+        .post-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .post-caption {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .post-details-info {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 5px;
+        }

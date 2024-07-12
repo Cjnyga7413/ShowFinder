@@ -1,0 +1,86 @@
+.module-box {
+    background-image: url(componets/house-show-header.jpg);
+    background-color: #04AA6D;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 2px 2px 5px #888;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+label {
+    font-family: 'CustomFont3', sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    color: #abee0fe2;
+}
+h2{
+    font-family: 'CustomFont3';
+    font-size: 25px;
+    color: #abee0fe2;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+
+#message {
+    font-family: 'CustomFont3';
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+.error-message {
+color: red;
+font-weight: bold;
+}
+p{
+    font-family: 'CustomFont3';
+    color: #abee0fe2;
+}

@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(185, 44, 44);
+
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url(fonts/DetunizedPersonalUseRegular-2Oqzw.ttf) format(woff2),
+  }
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url(fonts/TrashJunkiesDemo-MVnqB.ttf) format(woff2),
+    
+  }
+  @font-face {
+    font-family: 'CustomFont3';
+    src: url(fonts/zai_COVID-19VaCcine.ttf) format(woff2),
+    
+  }
+
+.banner {
+    position: relative;
+    background-image: url(componets/moshpit2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #789f16;
+    height: 175px; 
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-family: 'CustomFont', sans-serif;
+    color: #070000
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #c5810d;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    font-size: 16px;
+    font-family: 'CustomFont3', sans-serif;
+}
+.button:hover {
+    background-color: #a46e0a;
+}
+.button-styling {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: 'CustomFont3', sans-serif;
+}
+.content {
+    display: flex; 
+    align-items: start; 
+    font-size: 24px;
+    font-family: 'CustomFont3', sans-serif;
+}
+
+.left-image {
+    max-width: 800px !important;
+    height: auto !important;
+    margin-right: 20px !important;
+    margin-top: 30px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
